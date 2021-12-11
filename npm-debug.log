@@ -1,0 +1,136 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\10213\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'mongodb'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v16.13.0
+4 verbose install initial load of C:\Users\10213\OneDrive\桌面\sit725-2021-t2-prac3\package.json
+5 warn package.json bluemix-hello-node@0.0.0 No license field.
+6 verbose readDependencies loading dependencies from C:\Users\10213\OneDrive\桌面\sit725-2021-t2-prac3\package.json
+7 silly cache add args [ 'mongodb', null ]
+8 verbose cache add spec mongodb
+9 silly cache add parsed spec Result {
+9 silly cache add   raw: 'mongodb',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'mongodb',
+9 silly cache add   rawSpec: '',
+9 silly cache add   spec: 'latest',
+9 silly cache add   type: 'tag'
+9 silly cache add }
+10 silly addNamed mongodb@latest
+11 verbose addNamed "latest" is being treated as a dist-tag for mongodb
+12 info addNameTag [ 'mongodb', 'latest' ]
+13 silly mapToRegistry name mongodb
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry http://registry.npm.taobao.org/
+16 silly mapToRegistry data Result {
+16 silly mapToRegistry   raw: 'mongodb',
+16 silly mapToRegistry   scope: null,
+16 silly mapToRegistry   name: 'mongodb',
+16 silly mapToRegistry   rawSpec: '',
+16 silly mapToRegistry   spec: 'latest',
+16 silly mapToRegistry   type: 'tag'
+16 silly mapToRegistry }
+17 silly mapToRegistry uri http://registry.npm.taobao.org/mongodb
+18 verbose addNameTag registry:http://registry.npm.taobao.org/mongodb not in flight; fetching
+19 verbose request uri http://registry.npm.taobao.org/mongodb
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 下午5:45:46
+22 verbose request id 96974d01ceacc464
+23 http request GET http://registry.npm.taobao.org/mongodb
+24 http 200 http://registry.npm.taobao.org/mongodb
+25 verbose headers {
+25 verbose headers   server: 'Tengine',
+25 verbose headers   'content-type': 'application/json; charset=utf-8',
+25 verbose headers   'content-length': '80071',
+25 verbose headers   connection: 'keep-alive',
+25 verbose headers   date: 'Sun, 05 Dec 2021 06:45:48 GMT',
+25 verbose headers   'x-current-requests': '1',
+25 verbose headers   vary: 'accept, accept-encoding',
+25 verbose headers   etag: 'W/"493d698d37a693042ab890858ee4db88"',
+25 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+25 verbose headers   'x-readtime': '65',
+25 verbose headers   via: 'au3.l1, cache3.au3, l2hk71.l2, cache27.l2hk71, izbp11dsagbzylz6yon5vvz, cache27.l2hk71[240,260,200-0,H], cache15.l2hk71[262,0], cache3.au3[1032,1031,200-0,M], cache6.au3[1033,0]',
+25 verbose headers   'content-encoding': 'gzip',
+25 verbose headers   'ali-swift-global-savetime': '1638686748',
+25 verbose headers   age: '0',
+25 verbose headers   'x-cache': 'MISS TCP_MISS dirn:10:461889662',
+25 verbose headers   'x-swift-savetime': 'Sun, 05 Dec 2021 06:45:48 GMT',
+25 verbose headers   'x-swift-cachetime': '120',
+25 verbose headers   'timing-allow-origin': '*',
+25 verbose headers   eagleid: '2ff6299a16386867477102349e'
+25 verbose headers }
+26 silly get cb [
+26 silly get   200,
+26 silly get   {
+26 silly get     server: 'Tengine',
+26 silly get     'content-type': 'application/json; charset=utf-8',
+26 silly get     'content-length': '80071',
+26 silly get     connection: 'keep-alive',
+26 silly get     date: 'Sun, 05 Dec 2021 06:45:48 GMT',
+26 silly get     'x-current-requests': '1',
+26 silly get     vary: 'accept, accept-encoding',
+26 silly get     etag: 'W/"493d698d37a693042ab890858ee4db88"',
+26 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+26 silly get     'x-readtime': '65',
+26 silly get     via: 'au3.l1, cache3.au3, l2hk71.l2, cache27.l2hk71, izbp11dsagbzylz6yon5vvz, cache27.l2hk71[240,260,200-0,H], cache15.l2hk71[262,0], cache3.au3[1032,1031,200-0,M], cache6.au3[1033,0]',
+26 silly get     'content-encoding': 'gzip',
+26 silly get     'ali-swift-global-savetime': '1638686748',
+26 silly get     age: '0',
+26 silly get     'x-cache': 'MISS TCP_MISS dirn:10:461889662',
+26 silly get     'x-swift-savetime': 'Sun, 05 Dec 2021 06:45:48 GMT',
+26 silly get     'x-swift-cachetime': '120',
+26 silly get     'timing-allow-origin': '*',
+26 silly get     eagleid: '2ff6299a16386867477102349e'
+26 silly get   }
+26 silly get ]
+27 verbose get saving mongodb to C:\Users\10213\registry.npm.taobao.org\mongodb\.cache.json
+28 verbose correctMkdir C:\Users\10213 correctMkdir not in flight; initializing
+29 silly addNameTag next cb for mongodb with tag latest
+30 silly addNamed mongodb@4.2.1
+31 verbose addNamed "4.2.1" is a plain semver version for mongodb
+32 silly mapToRegistry name mongodb
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry http://registry.npm.taobao.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'mongodb',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'mongodb',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag'
+35 silly mapToRegistry }
+36 silly mapToRegistry uri http://registry.npm.taobao.org/mongodb
+37 verbose addRemoteTarball https://registry.npmmirror.com/mongodb/download/mongodb-4.2.1.tgz not in flight; adding
+38 verbose addRemoteTarball [
+38 verbose addRemoteTarball   'https://registry.npmmirror.com/mongodb/download/mongodb-4.2.1.tgz',
+38 verbose addRemoteTarball   'c167db158ab0bf6552b3f9c91b396cb4100c2f04'
+38 verbose addRemoteTarball ]
+39 info retry fetch attempt 1 at 下午5:45:47
+40 info attempt registry request try #1 at 下午5:45:47
+41 http fetch GET https://registry.npmmirror.com/mongodb/download/mongodb-4.2.1.tgz
+42 http fetch 200 https://registry.npmmirror.com/mongodb/download/mongodb-4.2.1.tgz
+43 silly fetchAndShaCheck shasum c167db158ab0bf6552b3f9c91b396cb4100c2f04
+44 verbose stack Error: Not a valid cache tarball name: C:\Users\10213\AppData\Local\Temp\npm-9732-66f348e7\registry.npmmirror.com\mongodb\download\mongodb-4.2.1.tgz
+44 verbose stack     at addLocalTarball (C:\Users\10213\node_modules\npm\lib\cache\add-local-tarball.js:38:17)
+44 verbose stack     at next (C:\Users\10213\node_modules\npm\lib\cache\add-remote-tarball.js:39:5)
+44 verbose stack     at C:\Users\10213\node_modules\npm\lib\cache\add-remote-tarball.js:70:7
+44 verbose stack     at C:\Users\10213\node_modules\npm\lib\cache\add-remote-tarball.js:105:16
+44 verbose stack     at C:\Users\10213\node_modules\npm\node_modules\sha\index.js:24:37
+44 verbose stack     at ReadStream.<anonymous> (C:\Users\10213\node_modules\npm\node_modules\sha\index.js:72:7)
+44 verbose stack     at ReadStream.emit (node:events:390:28)
+44 verbose stack     at endReadableNT (node:internal/streams/readable:1343:12)
+44 verbose stack     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+45 verbose cwd C:\Users\10213\OneDrive\桌面\sit725-2021-t2-prac3
+46 error Windows_NT 10.0.19042
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\10213\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "mongodb"
+48 error node v16.13.0
+49 error npm  v2.15.12
+50 error Not a valid cache tarball name: C:\Users\10213\AppData\Local\Temp\npm-9732-66f348e7\registry.npmmirror.com\mongodb\download\mongodb-4.2.1.tgz
+51 error If you need help, you may report this error at:
+51 error     <https://github.com/npm/npm/issues>
+52 verbose exit [ 1, true ]
