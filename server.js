@@ -17,7 +17,15 @@ var port = process.env.PORT || 8080;
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.jason());
 app.use('/api/projects',projectRoute);
-
+app.get("/addCode/:n1/:n2",function(request,response){
+  let n1 = request.params.n1
+  let n1 = request.params.n2
+  let result = n1 + n2 || null;
+  if (result == null){
+    response.status(400).json({statusCode:400,err:"Both input should be a number"})
+  }
+  response.joson({statusCode :200,result:result
+});
 
 const dummyProject={
   author:'alessio',
